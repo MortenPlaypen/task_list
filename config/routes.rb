@@ -1,10 +1,10 @@
 TaskList::Application.routes.draw do
-  get "users/new"
+  resources :users
 
   root to: 'static_pages#home'
 
   match 'tasks', to: 'static_pages#tasks'
-  match '/signup',  to: 'users#new'
+  match 'signup',  to: 'users#new'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
