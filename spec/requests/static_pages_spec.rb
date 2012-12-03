@@ -4,17 +4,17 @@ describe "Static pages" do
 
   describe "Home page" do
 
-    it "should have the content 'Tasks'" do
-      visit '/static_pages/home'
-      page.should have_content('Tasks')
+    it "should have the content 'Task List'" do
+      visit root_path
+      page.should have_content('Task List')
     end
   end
 
   describe "Tasks page" do
 
-    it "should have the content 'List'" do
-      visit '/static_pages/home'
-      page.should have_content('List')
+    it "should have the content 'Tasks'" do
+      visit tasks_path
+      page.should have_content('Tasks')
     end
   end
 end
