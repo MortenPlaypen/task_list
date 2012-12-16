@@ -68,6 +68,8 @@ GEM
       railties (>= 3.2.0, < 5.0)
       thor (~> 0.14)
     json (1.7.5)
+    launchy (2.1.2)
+      addressable (~> 2.3)
     libwebsocket (0.1.7.1)
       addressable
       websocket
@@ -155,10 +157,11 @@ DEPENDENCIES
   annotate (= 2.5.0)
   bcrypt-ruby (= 3.0.1)
   bootstrap-sass (= 2.1)
-  capybara (= 1.1.2)
+  capybara
   coffee-rails (= 3.2.2)
   factory_girl_rails (= 4.1.0)
   jquery-rails (= 2.0.2)
+  launchy
   pg (= 0.12.2)
   rails (= 3.2.9)
   rspec-rails (= 2.11.0)
