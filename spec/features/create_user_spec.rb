@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "Sign up path" do
+describe "Create user" do
 
   
 
